@@ -1,0 +1,12 @@
+{
+  "portfolio": {
+    "registry": "../ops/apexyard.projects.yaml",
+    "projects_dir": "../ops/projects",
+    "ideas_backlog": "../ops/projects/ideas-backlog.md",
+    "onboarding": "../ops/onboarding.yaml",
+    "workspace_dir": "../ops/workspace",
+    "custom_skills_dir": "../ops/custom-skills",
+    "custom_handbooks_dir": "../ops/custom-handbooks",
+    "agent_routing": "../ops/agent-routing.yaml"
+  }
+}

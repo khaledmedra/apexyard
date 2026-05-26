@@ -2,9 +2,16 @@
 # onboarding flag. Per-machine, per-clone. Never committed.
 .claude/session/
 
-# ApexYard per-project config written by /onboard. Contains deploy URLs and
-# sensitive-topic notes that should not leak to git — keep it local.
-.claude/project-config.json
+# Per-project memory files may contain sensitive project context (security
+# findings, internal ticket details, vulnerability notes). Keep local only.
+.claude/projects/memory/
+
+# ApexYard per-project config. In split-portfolio mode this file contains
+# only path references to the private sibling repo and IS committed. In
+# single-fork mode, if you add sensitive values (deploy URLs, secret topics),
+# add .claude/project-config.json back to .git/info/exclude locally.
+# .claude/project-config.json
+
 
 # Claude Code per-machine settings (permission overrides, local tool config)
 .claude/settings.local.json
